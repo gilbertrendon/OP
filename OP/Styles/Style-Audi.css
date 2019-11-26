@@ -1,0 +1,15 @@
+.TitleAu{
+	position: absolute;
+	font-size: 50px;
+	top: -5px;
+	left: 550px;
+}
+
+.Gene{
+	position: absolute;
+	width: 80%;
+	height: 450px;
+	top: 100px;
+	left: 150px;
+	overflow: auto;
+}

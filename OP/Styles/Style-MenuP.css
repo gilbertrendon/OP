@@ -1,0 +1,200 @@
+/*Desde Aca Es Para El Tipo De Usuario #1 (Administrador)*/
+.Btn-GM{
+	position: absolute;
+	height: 150px;
+	width: 205px;	
+}
+
+button#Btn-Ob{	
+	top: 250px;
+	left: 20px;
+}
+
+button#Btn-Par{
+	top: 250px;
+	left: 250px;
+}
+
+button#Btn-Con{
+	top: 250px;
+	left: 480px;
+}
+
+button#Btn-Tra{
+	top: 250px;
+	left: 710px;
+}
+
+button#Btn-Aud{
+	top: 250px;
+	left: 930px;
+}
+
+button#Btn-Liq{
+	top: 250px;
+	left: 1150px;
+}
+
+.Text-Btn{
+	text-align: center;
+	margin-top: 100px;
+	font-size: 30px;
+}
+
+.Icon-Btn{
+	position: absolute;
+	left: 32px;
+	height: 100px;
+	width: 140px;
+}
+
+.Titulo{
+	position: absolute;
+	font-size: 80px;
+	color: white;
+	top: 80px;
+	left: 460px;
+}
+
+.Bienve{
+    position: absolute;
+    top: 10px;
+    left: 550px;
+    font-size: 40px;
+    color: #44846a;
+}
+
+/*Desde Aca Es Para El Tipo De Usuario #2 (Operador)*/
+
+button#Btn-ObP{	
+	top: 250px;
+	left: 80px;
+}
+
+button#Btn-ConP{
+	top: 250px;
+	left: 340px;
+}
+
+button#Btn-TraP{
+	top: 250px;
+	left: 585px;
+}
+
+button#Btn-AudP{
+	top: 250px;
+	left: 830px;
+}
+
+button#Btn-LiqP{
+	top: 250px;
+	left: 1090px;
+}
+
+/*PopUp Manual De Usuario*/
+
+.btn-abrir-popupM{
+	width: 50px; 
+	height: 40px;
+	font-size: 18px;
+	cursor: pointer;
+	background: transparent;
+}
+
+.overlayM{
+	background: rgba(0,0,0,.8);
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	visibility: hidden;
+
+}
+
+.overlayM.activarM{
+	visibility: visible;
+}
+
+.popupM{
+	background: #f8f8f8;
+	box-shadow: 0px 0px 9px 0px rgba(0,0,0,.9);
+	border-radius: 3px;
+	padding: 20px;
+	text-align: center;
+	width: 800px;
+	height: 90%;
+	overflow: auto;
+}
+
+
+.popupM .btn-cerrar-popupM{
+	position: static;	
+	font-size: 16px;
+	line-height: 16px;
+	text-align: right;
+	margin-left: 700px;
+}
+
+.ManUsu{
+    position: absolute;
+    top: 90px;
+    left: 1300px;
+}
+
+
+/*Manual Del Tecnico*/
+.btn-abrir-popupMT{
+	width: 50px; 
+	height: 40px;
+	font-size: 18px;
+	cursor: pointer;
+	background: transparent;
+}
+
+.overlayMT{
+	background: rgba(0,0,0,.8);
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	visibility: hidden;
+
+}
+
+.overlayMT.activarMT{
+	visibility: visible;
+}
+
+.popupMT{
+	background: #f8f8f8;
+	box-shadow: 0px 0px 9px 0px rgba(0,0,0,.9);
+	border-radius: 3px;
+	padding: 20px;
+	text-align: center;
+	width: 800px;
+	height: 90%;
+	overflow: auto;
+}
+
+
+.popupMT .btn-cerrar-popupMT{
+	position: static;	
+	font-size: 16px;
+	line-height: 16px;
+	text-align: right;
+	margin-left: 700px;
+}
+
+.ManTec{
+    position: absolute;
+    top: 90px;
+    left: 1200px;
+}

@@ -1,0 +1,209 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family:impact;
+}
+
+body{
+	background-image: url("../Images/Fondo.jpg");
+	background-size: cover;
+	background-attachment: fixed;	
+	overflow-x: hidden;
+	height: auto;
+}
+
+header{
+background: #373800;
+height: 60px;
+margin: 0;	
+}
+
+header p{
+	font-size: 40px;
+	position: absolute;
+	margin-top: 7px;
+}
+
+footer{
+	margin-top: 38.1%;
+	top: 93%;
+	width: 100%;
+	height: 45px;
+	background: #373800;
+	color: yellow;
+}
+
+footer p{
+	font-size: 25px;
+	top: 10px;
+	left: 10px;
+}
+
+
+.Btn{
+	border: 2px black;
+	font-size: 18px;
+	background: grey;
+	border-radius: 5px; 
+	cursor: pointer;
+	transition: background	1s;
+	color:white;
+	font-size: 25px;
+}
+
+.Btn:hover{
+	background: #b3b600;
+}
+
+.Btn a{
+	text-decoration: none;
+}
+
+.menu-bar{
+    position: absolute;
+    top: 10px;
+    left: 1300px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.menu-icon{
+    position: relative;
+    width: 40px;
+    height: 30px;
+}
+
+input{
+	width: 450px;
+	height: 50px;
+	font-size: 20px;
+}
+
+.sidebar{
+	position: absolute;	
+	z-index: 1;
+	width: 250px;
+	height: 90%;
+	background: #333;
+	color: #fff;
+	outline: 2px solid #2a2a2a;
+	left: 1515px;
+	top: 62px;
+}
+
+.sidebar h2{
+	text-align: center;
+	margin: 0;
+	padding: 10px;
+	background: #2a2a2a;
+}
+
+.sidebar a{
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	padding: 10px;
+}
+
+.sidebar ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.sidebar li{
+	outline: 2px solid #2a2a2a;
+	transition: all 0.3s;
+}
+
+.sidebar li:hover{
+	background: #444;
+	border-right: 5px solid #eee;
+}
+
+.menu-bar{
+	cursor: pointer;
+}
+
+.abrir{
+	transform: translateX(-399px);
+}
+
+.Logo{
+	position: absolute;
+    top: 5px;
+    left: 30px;
+    width: 80px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.Tbls{ 
+    border-collapse: collapse;
+    width: 100%;
+    background: white;
+}
+  
+ .Tbls td,th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+.Tbls tr:nth-child(even){background-color:   #FDF5E6;}
+  
+.Tbls tr:hover {background-color: #a8aa2b;}
+  
+.Tbls th {
+    padding-top: 7px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: black;
+    color: white;
+}
+
+ .filtro{
+    padding: 2%;
+    background: transparent;
+    border: none;
+    font-size: 15px;
+  }
+
+ .myInput {
+ 	position: absolute;
+ 	background-image: url(../Images/Icons/Buscar.png);
+  	background-position: 5px 5px;
+  	background-size: 30px;
+  	background-repeat: no-repeat;
+  	width: 30%;
+  	font-size: 20px;
+  	padding: 12px 20px 12px 40px;
+  	border: 1px solid #ddd;
+  	margin-bottom: 12px;
+  	top: 70px;
+  	left: 150px;
+}
+.Añ{
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	top: 70px;
+	left: 1100px;
+}
+
+.Fi{
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	top: 70px;
+	left: 1000px;
+}
+
+.AccesR{
+    color: white;
+    position: absolute;
+    top: 200px;
+    left: 380px;
+    font-size: 80px;
+}

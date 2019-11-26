@@ -1,0 +1,15 @@
+.Tit{
+	position: absolute;
+	font-size:80px;
+	top: 180px;
+	left: 430px;
+	color: white;
+}
+
+button#Btn-Continuar{
+	position: absolute;
+	top: 400px;
+	left: 600px;
+	width: 170px; 
+	height: 60px;
+}

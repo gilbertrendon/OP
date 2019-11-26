@@ -1,0 +1,31 @@
+.TitleLiq{
+    position: absolute;
+    font-size: 50px;
+    top: -5px;
+    left: 530px;
+}
+
+.GeneraLiq{
+    position: absolute;
+    top: 120px;
+    left: 60px;
+    height: 400px;
+    width: 90%;
+    overflow-y: auto;
+}
+
+
+h1{
+    position: absolute;
+    top: 70px;
+    left: 525px;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+
+.Actu{
+    position: absolute;
+    left: 1200px;
+    top: 70px;
+}
